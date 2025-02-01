@@ -16,8 +16,7 @@ screen_height = 0;
 screen_width = 0;
 
 
-round = "circle.png"
-rect = "rectangle.png"
+
 Apple = "apple.png"
 
 
