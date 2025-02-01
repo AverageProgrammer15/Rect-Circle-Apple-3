@@ -66,10 +66,14 @@ recognition.onresult = function(event) {
 
  if (content == "circle"){
   draw_circle = "set";
+  console.log("Set circle")
  } else if (content == "rectangle"){
   draw_rectangle = "set";
+  console.log("Set rectangle")
+  
  } else if (content == "apple"){
   draw_apple = "set";
+  console.log("Set apple")
  }
 
  draw();
