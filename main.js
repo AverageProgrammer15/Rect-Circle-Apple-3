@@ -66,21 +66,26 @@ recognition.onresult = function(event) {
 
  if (content == "circle"){
   draw_circle = "set";
-  console.log("Set circle")
+  console.log("Set circle");
+  draw();
+  console.log("Script should be running: circle")
  } else if (content == "rectangle"){
   draw_rectangle = "set";
   console.log("Set rectangle")
+  draw();
+  console.log("Script should be running: Rectangle")
   
  } else if (content == "apple"){
   draw_apple = "set";
   console.log("Set apple")
+  draw();
+  console.log("Script should be running: apple")
  }
 
- draw();
+ 
  to_number = Number(content)
 
- recognition.start();
-
+ 
 }
 
 
