@@ -104,7 +104,7 @@ function draw(){
       x = Rng * 700
       y = Rng * 400
       
-      image(round, x, y, 50,50)
+      circle(x, y, 25)
       speak_data = "Drawn a circle"
       speak()
     }
@@ -115,7 +115,7 @@ function draw(){
       x = Rng * 700
       y = Rng * 400
       
-      image(rect, x, y, 50,50)
+      rect(x,y,55,40)
       speak_data = "Drawn a rectangle"
 
       
