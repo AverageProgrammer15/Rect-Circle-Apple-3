@@ -97,6 +97,7 @@ function draw(){
       
       speak()
     }
+    draw_apple = "";
   } else if(draw_circle == "set"){
     for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
@@ -107,6 +108,7 @@ function draw(){
       speak_data = "Drawn a circle"
       speak()
     }
+    draw_circle = "";
     
   }else if(draw_rectangle == "set"){
     for (i=0; i<=to_number;i++){
@@ -120,6 +122,7 @@ function draw(){
       
       speak()
     }
+    draw_rectangle = "";
   }
 } 
 
