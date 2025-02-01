@@ -79,6 +79,8 @@ recognition.onresult = function(event) {
  draw();
  to_number = Number(content)
 
+ recognition.start();
+
 }
 
 
