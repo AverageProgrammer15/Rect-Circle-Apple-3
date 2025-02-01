@@ -86,7 +86,7 @@ function draw(){
   y = 0;
   if(draw_apple == "set")
   {
-    for (i=1; i<=to_number;i++){
+    for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
@@ -99,7 +99,7 @@ function draw(){
       speak()
     }
   } else if(draw_circle == "set"){
-    for (i=1; i<=to_number;i++){
+    for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
@@ -110,7 +110,7 @@ function draw(){
     }
     
   }else if(draw_rectangle == "set"){
-    for (i=1; i<=to_number;i++){
+    for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
